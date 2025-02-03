@@ -1,5 +1,6 @@
 import { generateColors, hexToCss, isHex } from "./modules/utils";
 import { Color } from "./modules/Color";
+import * as convert from "color-convert";
 
 const form = document.querySelector("form");
 
@@ -31,6 +32,22 @@ const displayColors = (input, colorsPalette) => {
         "--shadow-color",
         hexToCss(input)
     );
+
+    //
+
+    const gradientColors = [
+        0,
+        Math.round(colorsPalette.length / 2),
+        colorsPalette.length - 1
+      ].map((index) => `#${convert.hsl.hex(colorsPalette[index])}`);
+
+      document.body.style.background = `linear-gradient(-45deg, ${gradientColors.join(
+        ","
+      )}`;
+
+      document.body.style.backgroundSize = `400% 400%`;
+
+    //  
 
     
     document.body.style.backgroundSize = `400% 400%`;

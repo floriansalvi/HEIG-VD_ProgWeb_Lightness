@@ -15,11 +15,12 @@ export class Color {
         const colorElement = document.createElement("div");
         colorElement.classList.add("color");
         colorElement.dataset.color = this.#hex;
-        colorElement.style.backgroundColor = this.#hex;
+        console.log(this.#hex);
+        colorElement.style.backgroundColor = `#${this.#hex}`;
 
         const colorTextElement = document.createElement("p");
         colorTextElement.textContent = this.#hex;
-        colorTextElement.style.color = this.#hsl[2];
+        colorTextElement.style.color = this.#hsl[2] < 50  ? "#ffffff" : "#000000";
 
         colorElement.appendChild(colorTextElement);
 
