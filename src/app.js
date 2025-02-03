@@ -14,7 +14,7 @@ form.addEventListener("submit", (e) => {
     try{
         if(!isHex(colorInput)){
             notyf.error(`${colorInput} n'est pas un code hexadeciaml valide`);
-            throw new Error(`${colorInput} n'est pas un code hexadeciaml valide`);
+            throw new Error(`${colorInput} n'est pas un code hexadeciaml valide.`);
         }else{
             const colorsPalette = generateColors(colorInput);
             displayColors(colorInput, colorsPalette);
