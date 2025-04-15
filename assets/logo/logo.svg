@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="logo" x="0" y="0" width="512" height="512" style="fill:none;"/>
+    <g id="logo1" serif:id="logo">
+        <rect x="0" y="0" width="512" height="512" style="fill:white;"/>
+        <g transform="matrix(0.964286,0,0,0.964286,40,21.5721)">
+            <g transform="matrix(1.12603,0,0,1.12603,191.651,-96.5878)">
+                <g transform="matrix(129.638,0,0,129.638,228.954,286.962)">
+                </g>
+                <text x="-181.09px" y="286.962px" style="font-family:'ABCWhyteEduInktrap-Bold', 'ABC Whyte Edu Inktrap', sans-serif;font-weight:700;font-size:129.638px;">LIGHT</text>
+            </g>
+            <g transform="matrix(1.2571,0,0,1.2571,213.96,0.851278)">
+                <g transform="matrix(129.638,0,0,129.638,191.619,286.962)">
+                </g>
+                <text x="-181.09px" y="286.962px" style="font-family:'ABCWhyteEduInktrap-Bold', 'ABC Whyte Edu Inktrap', sans-serif;font-weight:700;font-size:129.638px;">NESS</text>
+            </g>
+        </g>
+    </g>
+</svg>
