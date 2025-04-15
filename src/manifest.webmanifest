@@ -3,7 +3,7 @@
     "name": "Florian Salvi - Lightness",
     "icons": [
     {
-    "src": "assets/logo/logo_512.png",
+    "src": "../assets/logo/logo_512.png",
     "type": "image/png",
     "sizes": "512x512"
     }
